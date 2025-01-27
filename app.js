@@ -14,7 +14,7 @@ app.use(logger)
 const fruitsRouter = require("./routes/fruits")
 
 app.get('/', (req, res) => {
-   res.send('Hello Fruity!');
+   res.send('Server Running waiting for an entry!');
 })
 
 app.use('/fruits', fruitsRouter);
